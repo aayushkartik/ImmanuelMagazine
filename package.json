@@ -1,0 +1,31 @@
+{
+  "name": "immanuel",
+  "version": "1.0.0",
+  "description": "the website of the immanuel magnize",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Immanuel",
+    "magazine"
+  ],
+  "author": "Aayush Kartik",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "lodash": "^4.17.21",
+    "mongo": "^0.1.0",
+    "mongodb": "^3.6.5",
+    "mongoose": "^5.12.2",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.1.0",
+    "session": "^0.1.0",
+    "sweetalert": "^2.1.2"
+  }
+}
