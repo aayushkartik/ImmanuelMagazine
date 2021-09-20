@@ -11,7 +11,7 @@ app.use(bodyparser.urlencoded({extended:true}));
 app.set('view engine', 'ejs');
 port = process.env.PORT || 8080;
 
-const DB = process.env.DATABASE.replace('<PASSWORD>' , process.env.PASSWORD);
+const DB = process.env.DATABASE;
 mongoose.connect(DB, {useNewUrlParser: true, useUnifiedTopology: true});
 mongoose.set('useCreateIndex',true);
 
